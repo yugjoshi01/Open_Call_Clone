@@ -34,6 +34,7 @@
   --f-smooth: cubic-bezier(.4,0,.1,.9);
   --f-cubic-in: cubic-bezier(.2,.63,.13,.95);
   --f-swoosh: cubic-bezier(.52,.04,0,.99)
+  --text-color: var(--c-white);
 }
 
 :root .fdcm--setup {
