@@ -2,6 +2,9 @@
 
 import downImage from "@/CssFile/images/check.png";
 import icon from "@/CssFile/images/icon-120_user-new.svg";
+import downArr from "@/CssFile/images/right-arrow.png";
+import upArr from "@/CssFile/images/upload.png";
+
 import "@/CssFile/Main.css";
 import Image from "next/image";
 import { useEffect } from "react";
@@ -113,7 +116,11 @@ function Main() {
                 </span>
               </p>
             </div>
-            <footer className="footer-1" data-v-8302dbff>
+            <footer
+              className="footer-1"
+              style={{ "--l-delay": "0.075" } as React.CSSProperties}
+              data-v-8302dbff
+            >
               <div className="form-wrap" data-v-8302dbff>
                 <div className="form-cta" data-v-8302dbff>
                   <div className="form" data-v-8302dbff>
@@ -155,9 +162,72 @@ function Main() {
                   </div>
                 </div>
               </div>
+              <div className="scroll" data-v-8302dbff>
+                <Image
+                  className="downArr"
+                  src={downArr}
+                  alt="downArr"
+                  height={36}
+                  width={36}
+                />
+                <span className="-m" data-v-8302dbff>
+                  Scroll down
+                </span>
+              </div>
             </footer>
           </div>
         </section>
+        <div className="ai-action" data-v-8302dbff>
+          <div className="stick -a-to-bottom string-progress-4 -inview">
+            <div className="wrap" data-v-c7750596>
+              <div
+                id="siric"
+                className="voice-line"
+                data-v-c7750596
+                data-v-ebeacc6c
+              >
+                <canvas
+                  width="1898"
+                  height="135"
+                  style={{ height: "100%", width: "100%" }}
+                ></canvas>
+              </div>
+              <button data-v-c7750596>
+                <canvas
+                  id="distortion"
+                  data-v-c7750596=""
+                  width="200"
+                  height="200"
+                ></canvas>
+                <div className="ai" id="ai" data-v-c7750596>
+                  <span className="client" data-v-c7750596></span>
+                  <video width={500} height={500} controls autoPlay>
+                    <source src="/videos/smoke.mp4" type="video/mp4" />
+                    <source src="/videos/smoke.webm" type="video/webm" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </button>
+              <span className="pointer" data-v-c7750596>
+                <Image
+                  className="-a-to-top upArr -inview"
+                  style={{ "--l-delay": "0.3" } as React.CSSProperties}
+                  src={upArr}
+                  alt="upArr"
+                  height={18}
+                  width={18}
+                />
+                <span
+                  className="a-to-top -m -inview"
+                  style={{ "--l-delay": "0.45" } as React.CSSProperties}
+                  data-v-c7750596
+                >
+                  See It in Action
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   );
