@@ -8,6 +8,8 @@ import upArr from "@/CssFile/images/upload.png";
 import "@/CssFile/Main.css";
 import Image from "next/image";
 import { useEffect } from "react";
+import CanvasAnimation from "./CanvasAnimation";
+import CircleAnimation from "./CircleAnimation";
 
 function Main() {
   useEffect(() => {
@@ -185,27 +187,14 @@ function Main() {
                 className="voice-line"
                 data-v-c7750596
                 data-v-ebeacc6c
-              >
-                <canvas
-                  width="1898"
-                  height="135"
-                  style={{ height: "100%", width: "100%" }}
-                ></canvas>
-              </div>
+              ></div>
               <button data-v-c7750596>
-                <canvas
-                  id="distortion"
-                  data-v-c7750596=""
-                  width="200"
-                  height="200"
-                ></canvas>
+                <div className="animation-class">
+                  <CircleAnimation />
+                </div>
                 <div className="ai" id="ai" data-v-c7750596>
                   <span className="client" data-v-c7750596></span>
-                  <video width={500} height={500} controls autoPlay>
-                    <source src="/videos/smoke.mp4" type="video/mp4" />
-                    <source src="/videos/smoke.webm" type="video/webm" />
-                    Your browser does not support the video tag.
-                  </video>
+                  <CanvasAnimation />
                 </div>
               </button>
               <span className="pointer" data-v-c7750596>
