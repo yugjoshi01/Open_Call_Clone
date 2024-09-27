@@ -438,8 +438,8 @@ ai-act-wrap .c-welcome .-w footer .form-wrap .form-cta[data-v-8302dbff] {
 
 .form-cta {
     background-color: var(--c-white);
-    -webkit-mask: url(../CssFile/images/r30-black.svg);
-    mask: url(../CssFile/images/r30-black.svg);
+    -webkit-mask: url(../sec_1/images/r30-black.svg);
+    mask: url(../sec_1/images/r30-black.svg);
     overflow: hidden;
     padding: .5rem 1rem 1rem;
     position: relative;
@@ -500,8 +500,8 @@ figure {
     cursor: pointer;
     display: flex;
     justify-content: center;
-    -webkit-mask: url(../CssFile/images/r30-black.svg);
-    mask: url(../CssFile/images/r30-black.svg);
+    -webkit-mask: url(../sec_1/images/r30-black.svg);
+    mask: url(../sec_1/images/r30-black.svg);
     min-width: 13rem;
     overflow: hidden;
     padding: .45rem 1.1rem;
@@ -527,8 +527,8 @@ a {
     bottom: 2px;
     content: "";
     left: 2px;
-    -webkit-mask: url(../CssFile/images/r30-black.svg);
-    mask: url(../CssFile/images/r30-black.svg);
+    -webkit-mask: url();
+    mask: url(../sec_1/images/r30-black.svg);
     position: absolute;
     right: 2px;
     top: 2px;

@@ -1,17 +1,17 @@
 "use client";
 
-import downImage from "@/CssFile/images/check.png";
-import icon from "@/CssFile/images/icon-120_user-new.svg";
-import downArr from "@/CssFile/images/right-arrow.png";
-import upArr from "@/CssFile/images/upload.png";
+import downImage from "@/Components/sec_1/images/check.png";
+import icon from "@/Components/sec_1/images/icon-120_user-new.svg";
+import downArr from "@/Components/sec_1/images/right-arrow.png";
+import upArr from "@/Components/sec_1/images/upload.png";
 
-import "@/CssFile/Main.css";
+import CanvasAnimation from "@/Components/Animation/CanvasAnimation";
+import CircleAnimation from "@/Components/Animation/CircleAnimation";
+import "@/Components/sec_1/Sec1.css";
 import Image from "next/image";
 import { useEffect } from "react";
-import CanvasAnimation from "./CanvasAnimation";
-import CircleAnimation from "./CircleAnimation";
 
-function Main() {
+function Sec1() {
   useEffect(() => {
     document.documentElement.classList.add("-loaded", "-ready");
   }, []);
@@ -222,4 +222,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Sec1;
