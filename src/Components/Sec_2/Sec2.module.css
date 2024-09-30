@@ -1,0 +1,458 @@
+@media (min-width: 1024px) {
+    .c_catalyst[data-v-66c1d44b] {
+        margin-top: clamp(4rem, 9%, 9%);
+    }
+}
+
+.c_catalyst[data-v-66c1d44b] {
+    contain: paint;
+    margin-top: 6rem;
+    position: relative;
+    background-color: var(--c-grey-light);;
+}
+
+@media (min-width: 1024px) {
+    .c_catalyst[data-v-66c1d44b] {
+        margin-top: clamp(4rem, 9%, 9%);
+    }
+}
+
+.w {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media (min-width: 1024px) {
+    .c_catalyst .w .title[data-v-66c1d44b] {
+        align-items: flex-start;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 1024px) {
+    .c_catalyst .w .title .l[data-v-66c1d44b] {
+        margin-left: 1rem;
+        margin-right: 9.85915493%;
+        width: calc(40.84507% - 1rem);
+    }
+}
+
+@media (min-width: 1024px) {
+    .c_catalyst .w .title .l span.sec2_h3[data-v-66c1d44b] {
+        width: 80%;
+    }
+}
+
+.c_catalyst .w .title .l span.sec2_h3[data-v-66c1d44b] {
+    white-space: pre-wrap;
+}
+
+@media (min-width: 1024px) {
+    .c_catalyst .w .title .l p[data-v-66c1d44b] {
+        margin-top: 1.5rem;
+        width: 80%;
+        margin-bottom: .6rem;
+    }
+}
+
+.c-catalyst .-w .title .l p[data-v-66c1d44b] {
+    margin-bottom: .6rem;
+    margin-top: 1rem;
+}
+
+.check[data-v-31c285db] {
+    align-items: center;
+    background: var(--c-green);
+    color: var(--c-black);
+    display: inline-flex;
+    margin-right: .25rem;
+    -webkit-mask: url(../sec_1/images/r30-black.svg);
+    mask: url(../sec_1/images/r30-black.svg);
+    padding: .25rem 1rem .25rem 0;
+    position: relative;
+    border-radius: 10px;
+}
+
+.check_img{
+    width: 2rem;
+}
+
+.check span[data-v-31c285db] {
+    white-space: nowrap;
+}
+
+.h3{
+    display: block;
+    font-size: 50.886px;
+    font-weight: 400;
+}
+.h5{
+    font-size: 25.452px;
+    margin-bottom: .75rem;
+}
+
+@media (min-width: 1442px) {
+    .m{
+        display: block;
+    }
+}
+@media (min-width: 1024px) {
+   .m{  
+        margin-right: 1rem;
+        margin-top: 0;
+    }
+}
+
+.m{
+    color: var(--c-grey-dark);
+    font-size: .7rem;
+}
+
+@media (min-width: 1024px) {
+ .r[data-v-66c1d44b] {
+        margin-top: .25rem;
+        width: 32.3943662%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .toggle{
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+ .toggle {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: .5rem auto 1rem;
+    margin-right: 0;
+}
+
+.toggle_btn{
+    align-items: center;
+    background: var(--c-black);
+    border-radius: 2rem;
+    cursor: pointer;
+    display: inline-flex;
+    height: 2rem;
+    justify-content: center;
+    position: relative;
+    width: 3rem;
+
+}
+
+.toggle_btn:after {
+    background: var(--c-grey-dark);
+    border-radius: 50%;
+    content: "";
+    height: 2rem;
+    transform: translate(25%) scale(.8);
+    transition: transform .3s var(--f-cubic);
+    width: 2rem;
+}
+
+.middle{
+        display: block;
+        margin-top: 2.5rem;
+        background-color: var(--c-black);
+        border-radius: 14px;
+        margin-bottom: 1rem;
+        margin: 3rem;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: not-allowed;
+    scale: 0.7;
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+  
+  .central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    box-shadow: 0.5em 1em 1em red,
+      -0.5em 0.5em 1em lime,
+      0.5em -0.5em 1em purple,
+      -0.5em -0.5em 1em yellow;
+  }
+  
+  .external_shadow {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0.5em 0.5em 3em red,
+      -0.5em 0.5em 3em lime,
+      0.5em -0.5em 3em purple,
+      -0.5em -0.5em 3em yellow;
+    z-index: 999;
+    animation: rotate 3s linear infinite;
+    background-color: #212121;
+  }
+  
+  .intern {
+    position: absolute;
+    color: white;
+    z-index: 9999;
+  }
+  
+  .intern::before {
+    content: "100%";
+    animation: percent 2s ease-in-out infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    50% {
+      transform: rotate(180deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes percent {
+    0% {
+      content: '0%';
+    }
+  
+    25% {
+      content: '25%';
+    }
+  
+    33% {
+      content: '33%';
+    }
+  
+    42% {
+      content: '42%';
+    }
+  
+    51% {
+      content: '51%';
+    }
+  
+    67% {
+      content: '67%';
+    }
+  
+    74% {
+      content: '74%';
+    }
+  
+    75% {
+      content: '75%';
+    }
+  
+    86% {
+      content: '86%';
+    }
+  
+    95% {
+      content: '95%';
+    }
+  
+    98% {
+      content: '98%';
+    }
+  
+    99% {
+      content: '99%';
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .button[data-v-e3fde6b2] {
+        min-width: 10rem;
+    }
+}
+
+.button[data-v-e3fde6b2] {
+    align-items: center;
+    background-color: rgba(var(--c-grey-light-rgb), .1);
+    box-sizing: border-box;
+    color: var(--c-green);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    -webkit-mask: url(../sec_1/images/r30-black.svg);
+    mask: url(../sec_1/images/r30-black.svg);
+    min-width: 13rem;
+    overflow: hidden;
+    padding: .45rem 1rem;
+    position: relative;
+}
+
+.p {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.button p b {
+    color: var(--c-black);
+    text-decoration: none;
+}
+
+.button[data-v-e3fde6b2]:before {
+    background-color: var(--c-black);
+    bottom: 2px;
+    content: "";
+    left: 2px;
+    -webkit-mask: url();
+    mask: url(../sec_1/images/r30-black.svg);
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    border-radius: 9px;
+    height: 48px;
+    width: 260px;
+
+}
+
+@media (min-width: 1024px) {
+    .button .text[data-v-e3fde6b2] {
+        align-items: center;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
+
+.button .text[data-v-e3fde6b2] {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    min-height: 2rem;
+    padding: .25rem 0;
+}
+
+@media (min-width: 1024px) {
+    .button .text>span[data-v-e3fde6b2]:first-child {
+        justify-content: center;
+    }
+}
+
+.button .text>span[data-v-e3fde6b2]:first-child {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: .5rem;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+@media (min-width: 1024px) {
+    /* Initial setup for before element */
+    .button .text > span[data-v-e3fde6b2]:first-child:before {
+        color: var(--c-white);
+        content: attr(data-label); /* Show the label */
+        display: block;
+        opacity: 0; /* Initially hidden */
+        position: absolute;
+        transform: translateY(100%) translateZ(0); /* Initially out of view */
+        transition: opacity .3s var(--f-cubic), transform .3s var(--f-cubic); /* Smooth transition */
+        width: 100%;
+    }
+
+    /* On hover, reveal the :before element */
+    .button .text > span[data-v-e3fde6b2]:first-child:hover:before {
+        opacity: 1; /* Make it visible */
+        transform: translateY(0) translateZ(0); /* Bring it into view */
+    }
+
+    /* Original text visibility */
+    .button .text > span[data-v-e3fde6b2]:first-child span[data-v-e3fde6b2] {
+        display: block;
+        opacity: 1; /* Visible by default */
+        transition: opacity .3s var(--f-cubic), transform .3s var(--f-cubic); /* Smooth transition */
+    }
+
+    /* Hide the original text when hovering */
+    .button .text > span[data-v-e3fde6b2]:first-child:hover span[data-v-e3fde6b2] {
+        opacity: 0; /* Hide the original text on hover */
+        transition-delay: 0s; /* No delay when hiding */
+    }
+
+    /* Show 'Risk Free' text by default */
+    .button .text > span[data-v-e3fde6b2]:first-child ~ .mm[data-v-e3fde6b2] {
+        opacity: 1; /* Show by default */
+        transform: translateY(0); /* Set to original position */
+        transition: opacity .3s var(--f-cubic), transform .3s var(--f-cubic); /* Smooth transition */
+    }
+
+    /* Transition to hide 'Risk Free' when hovering */
+    .button .text > span[data-v-e3fde6b2]:first-child:hover ~ .mm[data-v-e3fde6b2] {
+        opacity: 0; /* Hide 'Risk Free' */
+        transform: translateY(20px); /* Move down to hide */
+        transition: opacity .3s var(--f-cubic), transform .3s var(--f-cubic); /* Smooth transition */
+    }
+
+    /* Show 'Risk Free' text with transition effect on hover */
+    .button .text > span[data-v-e3fde6b2]:first-child:hover ~ .mm[data-v-e3fde6b2] {
+        opacity: 1; /* Make it visible */
+        transform: translateY(0) translateZ(0); /* Bring it into view */
+        color: var(--c-white); /* Change color on hover */
+        transition: opacity .3s var(--f-cubic), transform .3s var(--f-cubic); /* Same transition */
+    }
+
+    /* SVG transition when hovering */
+    .button svg[data-v-e3fde6b2-s] {
+        opacity: 1; /* Default state */
+        transition: opacity 0.3s ease; /* Define transition */
+    }
+
+    /* Hide the SVG on hover */
+    .button:hover svg[data-v-e3fde6b2-s] {
+        fill: var(--c-white); /* Change color on hover */
+        transition: opacity .3s var(--f-cubic), transform .3s var(--f-cubic); /* Same transition */
+    }
+
+    /* Reset SVG when not hovering */
+    .button:not(:hover) svg[data-v-e3fde6b2-s] {
+        opacity: 1; /* Ensure it returns to visible */
+    }
+}
+
+.svg_icon {
+    fill: var(--c-green);
+    margin-left: 25px;
+    position: relative;
+    transform: translateZ(0);
+    width: 2rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.mm[data-v-e3fde6b2]{
+    color: inherit;
+    font-size: .6rem;
+    line-height: 1.5rem;
+}
