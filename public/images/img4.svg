@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#0E2E28;stroke-width:2;stroke-linejoin:bevel;stroke-dasharray:2;}
+	.st1{fill:none;stroke:#0E2E28;stroke-width:2;stroke-linejoin:bevel;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#CDFA8A;}
+</style>
+<path id="Oval" class="st0" d="M60,96c19.9,0,36-16.1,36-36S79.9,24,60,24S24,40.1,24,60S40.1,96,60,96z"/>
+<ellipse id="Oval_00000017506763360943095690000011167340607540241805_" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -24.8528 60)" class="st1" cx="60" cy="60" rx="20" ry="50"/>
+<ellipse id="Oval_00000170972387406126766810000013345091190405436068_" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -24.8528 60)" class="st1" cx="60" cy="60" rx="50" ry="20"/>
+<circle id="Oval_00000008126117993376495770000017584317462492339900_" class="st2" cx="46" cy="46" r="10"/>
+</svg>

@@ -1,0 +1,121 @@
+.c_benefits[data-v-c40dc417] {
+    contain: paint;
+    margin-top: .5rem;
+    position: relative;
+}
+
+.w {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.c_benefits .w[data-v-c40dc417] {
+    align-items: center;
+    background-color: var(--c-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    -webkit-mask: url(../sec_1/images/r30-black.svg);
+    mask: url(../sec_1/images/r30-black.svg);
+    padding-bottom: 2rem;
+    padding-top: .5rem;
+}
+
+@media (min-width: 1024px) {
+    .c_benefits .w[data-v-c40dc417] {
+        padding-top: clamp(2rem, 4%, 4%);
+    }
+}
+
+.c_benefits .w>span[data-v-c40dc417] {
+    margin-bottom: 1.25rem;
+    text-align: center;
+    line-height: 1.25;
+    font-size: 1.999rem;
+    display: block;
+}
+
+@media (min-width: 1024px) {
+    .c_benefits .w>span[data-v-c40dc417] {
+        margin-bottom: 2rem;
+    }
+}
+
+.c_benefits .w .ul[data-v-c40dc417] {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: .5rem;
+    margin-right: 1rem;
+}
+
+@media (min-width: 1024px) {
+    .c_benefits .w .ul[data-v-c40dc417] {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1442px) {
+    .c_benefits .w .ul[data-v-c40dc417] {
+        margin-left: -2.112676056%;
+        width: 83.09859155%;
+    }
+}
+
+.c_benefits .w .ul .li[data-v-c40dc417] {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .c_benefits .w .ul .li[data-v-c40dc417] {
+        padding-left: .7042253521%;
+        padding-right: .7042253521%;
+        width: 40.27777778%;
+    }
+}
+
+@media (min-width: 1442px) {
+    .c_benefits .w .ul .li[data-v-c40dc417] {
+        padding-left: 1.271186441%;
+        padding-right: 1.271186441%;
+        width: 38.13559322%;
+    }
+}
+
+.li figure[data-v-c40dc417] {
+    display: block;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+}
+
+.c_benefits .w .ul .li figure[data-v-c40dc417] {
+    flex-shrink: 0;
+    margin-right: .5rem;
+    width: 6rem;
+}
+
+.c_benefits .w .ul .li .tt[data-v-c40dc417] {
+    margin-top: .5rem;
+}
+
+.h5{
+    font-size: 1.414rem;
+    line-height: 1.25;
+    display: block;
+}
+
+.c_benefits .w .ul .li .tt span[data-v-c40dc417] {
+    margin-bottom: .75rem;
+}
+
+.para{
+    margin: 0;
+}
+

@@ -1,0 +1,109 @@
+@keyframes marquee{
+    0% {
+        transform: translate3d(25%, 0, 0) rotate(.01deg);
+    }
+    100% {
+        transform: translate3d(-25%, 0, 0) rotate(.01deg);
+    }
+}
+
+.c_wft[data-v-875d2792] {
+    contain: paint;
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+
+@media (min-width: 1024px) {
+    .c_wft[data-v-875d2792] {
+        margin-top: clamp(2rem, 4%, 4%);
+        padding-bottom: 2rem;
+    }
+}
+
+.w {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.c_wft .w>figure[data-v-875d2792] {
+    margin-bottom: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2rem;
+}
+.h2{
+    font-size: 3.988rem;
+    line-height: 1;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.c_wft .w .marquee[data-v-875d2792] {
+    align-content: stretch;
+    align-items: center;
+    background-color: var(--c-black);
+    color: var(--c-green);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    -webkit-mask: url(../sec_1/images/r30-black.svg);
+    mask: url(../sec_1/images/r30-black.svg);
+    overflow: hidden;
+    position: relative;
+}
+
+@media (min-width: 1024px) {
+    .c_wft .w .marquee[data-v-875d2792] {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40.84507042%;
+    }
+}
+
+
+.c_wft .w .marquee .move[data-v-875d2792] {
+    animation: marquee 64s linear infinite;
+    animation-play-state: paused;
+    flex-shrink: 0;
+    transform: translateZ(0);
+    white-space: nowrap;
+    will-change: transform;
+}
+
+.c_wft .w .marquee .move[data-v-875d2792] {
+    animation-play-state: running;
+}
+
+.part{
+    font-size: 3.988rem;
+    line-height: 1;
+}
+
+.c_wft .w .marquee .move .part[data-v-875d2792] {
+    display: inline-block;
+    height: 100%;
+    padding-bottom: .2rem;
+    padding-top: .2rem;
+    transform: translateZ(0);
+    width: auto;
+}
+
+.c_wft .w .marquee .move .part span[data-v-875d2792] {
+    display: inline-block;
+    padding-right: .5rem;
+}
+
+.c_wft .w .marquee .move .part span[data-v-875d2792]:after {
+    background-color: var(--c-green);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    margin-left: .5rem;
+    opacity: .2;
+    vertical-align: middle;
+    width: 5rem;
+}

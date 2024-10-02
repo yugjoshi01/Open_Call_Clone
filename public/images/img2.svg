@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#0E2E28;stroke-width:2;stroke-linejoin:bevel;stroke-dasharray:2;}
+	.st1{fill:none;stroke:#0E2E28;stroke-width:2;stroke-linejoin:bevel;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#CDFA8A;}
+</style>
+<path id="Rectangle" class="st0" d="M46,39h28c3.3,0,6,2.7,6,6v28c0,3.3-2.7,6-6,6H60l0,0H46c-3.3,0-6-2.7-6-6V59l0,0V45
+	C40,41.7,42.7,39,46,39z"/>
+<path id="Path" class="st1" d="M40,59V45c0-3.3,2.7-6,6-6h28c3.3,0,6,2.7,6,6v28c0,3.3-2.7,6-6,6H60l0,0"/>
+<rect id="Rectangle_00000054949057154993566360000007812174508951869865_" x="20" y="59" class="st1" width="40" height="40"/>
+<path id="Rectangle_00000137833219840220783150000013327463873202692497_" class="st2" d="M80,19L80,19c11,0,20,9,20,20l0,0
+	c0,11-9,20-20,20l0,0c-11,0-20-9-20-20l0,0C60,28,69,19,80,19z"/>
+</svg>
