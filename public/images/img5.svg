@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0E2E28;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#CDFA8A;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#002E25;}
+</style>
+<path class="st0" d="M70,107H32c-3.9,0-7-3.1-7-7V20c0-3.9,3.1-7,7-7h56c3.9,0,7,3.1,7,7v62l-0.3,0.7l-24,24L70,107z M32,15
+	c-2.8,0-5,2.2-5,5v80c0,2.8,2.2,5,5,5h37.6L93,81.6V20c0-2.8-2.2-5-5-5H32z"/>
+<path class="st0" d="M70.7,106.7L69,106V88c0-3.9,3.1-7,7-7h18l0.7,1.7L70.7,106.7z M76,83c-2.8,0-5,2.2-5,5v15.6L91.6,83H76z"/>
+<path class="st0" d="M70,33H50c-3.9,0-7-3.1-7-7V14l1-1h32l1,1v12C77,29.9,73.9,33,70,33z M45,15v11c0,2.8,2.2,5,5,5h20
+	c2.8,0,5-2.2,5-5V15H45z"/>
+<circle class="st1" cx="48" cy="52" r="16"/>
+<polygon class="st2" points="43.6,58 48.4,58 59.4,47 56.6,47 46,57.6 40.4,52 37.6,52 "/>
+<g id="Rectangle_00000183971468010336215390000016498040127236900275_">
+</g>
+<polygon class="st2" points="41.6,91.8 48,85.4 45.2,85.4 40.2,90.4 "/>
+<polygon class="st2" points="54.4,91.8 55.8,90.4 50.8,85.4 48,85.4 "/>
+<polygon class="st2" points="54.4,76.2 48,82.6 50.8,82.6 55.8,77.6 "/>
+<polygon class="st2" points="45.2,82.6 48,82.6 41.6,76.2 40.2,77.6 "/>
+</svg>
