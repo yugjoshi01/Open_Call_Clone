@@ -1,0 +1,298 @@
+.header{
+    background-color: var(--c-grey-light);
+    left: 0;
+    padding-top: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.w {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.header .w[data-v-568e58aa] {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.l_tt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin: 0 2px;
+    height: 48px;
+}
+
+.h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.h2{
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 3px solid black;
+    padding: 0 .2rem;
+    border-radius: 7px;
+}
+
+.header .w a.logo[data-v-568e58aa] {
+    align-items: flex-start;
+    display: inline-flex;
+    height: 2.7rem;
+    justify-content: flex-start;
+    position: relative;
+}
+
+@media (min-width: 1024px) {
+    .header .w nav[data-v-568e58aa] {
+        display: flex;
+        justify-content: space-between;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        right: 0;
+        width: 39.43661972%;
+    }
+}
+
+@media (min-width: 1442px) {
+    .header .w nav[data-v-568e58aa] {
+        width: 30.98591549%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header .w nav[data-v-568e58aa]:before {
+        -webkit-backdrop-filter: blur(.25rem);
+        backdrop-filter: blur(.25rem);
+        background-color: rgba(var(--c-grey-special-rgb), .8);
+        content: "";
+        height: 100%;
+        left: -1rem;
+        -webkit-mask: url(../sec_1/images/r30-black.svg);
+        mask: url(../sec_1/images/r30-black.svg);
+        opacity: 0;
+        padding: .5rem 1rem;
+        position: absolute;
+        top: -.5rem;
+        transition: opacity .3s var(--f-cubic);
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header .w nav a[data-v-568e58aa] {
+        align-items: center;
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header .-w nav a[data-v-568e58aa]:before {
+        background-color: var(--c-white);
+        border-radius: .45rem;
+        content: "";
+        display: block;
+        height: 100%;
+        left: -.75rem;
+        opacity: 0;
+        padding: .25rem .75rem;
+        pointer-events: none;
+        position: absolute;
+        top: -.25rem;
+        transform: scale(.5);
+        width: 100%;
+    }
+}
+
+.base{
+    font-weight: 400;
+}
+
+.button[data-v-e3fde6b2] {
+    align-items: center;
+    background-color: rgba(var(--c-grey-light-rgb), .1);
+    box-sizing: border-box;
+    color: var(--c-green);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    -webkit-mask: url(../sec_1/images/r30-black.svg);
+    mask: url(../sec_1/images/r30-black.svg);
+    min-width: 13rem;
+    overflow: hidden;
+    padding:0.37rem 1.1rem;
+    position: relative;
+}
+
+@media (min-width: 1024px) {
+    .button[data-v-e3fde6b2] {
+        min-width: 10rem;
+    }
+}
+
+.m, .p {
+    line-height: 1.5;
+}
+
+.p {
+    display: block;
+    font-size: 1rem;
+}
+
+.button p b {
+    color: var(--c-black);
+    text-decoration: none;
+}
+
+.button[data-v-e3fde6b2]:before {
+    background-color: var(--c-black);
+    bottom: 2px;
+    content: "";
+    left: 2px;
+    -webkit-mask: url(../sec_1/images/r30-black.svg);
+    mask: url(../sec_1/images/r30-black.svg);
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    border-radius: 9px;
+}
+
+@media (min-width: 1024px) {
+    .button .text[data-v-e3fde6b2] {
+        align-items: center;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
+
+.button .text[data-v-e3fde6b2] {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    min-height: 2rem;
+  
+}
+
+@media (min-width: 1024px) {
+    .button .text>span[data-v-e3fde6b2]:first-child {
+        justify-content: center;
+    }
+}
+
+.button .text>span[data-v-e3fde6b2]:first-child {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: .5rem;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+@media (min-width: 1024px) {
+    /* Initial setup for before element */
+    .button .text > span[data-v-e3fde6b2]:first-child:before {
+        color: var(--c-white);
+        content: attr(data-label); /* Show the label */
+        display: block;
+        opacity: 0; /* Initially hidden */
+        position: absolute;
+        transform: translateY(100%) translateZ(0); /* Initially out of view */
+        transition: opacity .3s var(--f-cubic), transform .3s var(--f-cubic); /* Smooth transition */
+        width: 100%;
+    }
+
+    /* On hover, reveal the :before element */
+    .button .text > span[data-v-e3fde6b2]:first-child:hover:before {
+        opacity: 1; /* Make it visible */
+        transform: translateY(0) translateZ(0); /* Bring it into view */
+    }
+
+    /* Original text visibility */
+    .button .text > span[data-v-e3fde6b2]:first-child span[data-v-e3fde6b2] {
+        display: block;
+        opacity: 1; /* Visible by default */
+        transition: opacity .3s var(--f-cubic), transform .3s var(--f-cubic); /* Smooth transition */
+    }
+
+    /* Hide the original text when hovering */
+    .button .text > span[data-v-e3fde6b2]:first-child:hover span[data-v-e3fde6b2] {
+        opacity: 0; /* Hide the original text on hover */
+        transition-delay: 0s; /* No delay when hiding */
+    }
+
+    /* SVG transition when hovering */
+    .button svg[data-v-e3fde6b2-s] {
+        opacity: 1; /* Default state */
+        transition: opacity 0.3s ease; /* Define transition */
+    }
+
+    /* Hide the SVG on hover */
+    .button:hover svg[data-v-e3fde6b2-s] {
+        fill: var(--c-white); /* Change color on hover */
+        transition: opacity .3s var(--f-cubic), transform .3s var(--f-cubic); /* Same transition */
+    }
+
+    /* Reset SVG when not hovering */
+    .button:not(:hover) svg[data-v-e3fde6b2-s] {
+        opacity: 1; /* Ensure it returns to visible */
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .button .text .mm[data-v-e3fde6b2] {
+        transition: color .3s var(--f-cubic);
+    }
+}
+
+.button .text .mm[data-v-e3fde6b2] {
+    display: block;
+    position: relative;
+}
+
+.mm {
+    color: inherit;
+    font-size: .6rem;
+    line-height: 1.5rem;
+}
+
+.button svg[data-v-e3fde6b2-s] {
+    fill: var(--c-green);
+    margin-left: auto;
+    margin-right: -.5rem;
+    position: relative;
+    transform: translateZ(0);
+    width: 2rem;
+    padding: .4rem;
+}
+
+.svg_icon {
+    fill: var(--c-black);
+    aspect-ratio: 1 / 1;
+    transform: translateZ(0);
+}
+
+.svg_icon {
+    display: block;
+    height: 36px;
+    width: 36px;
+    width: 100%;
+}

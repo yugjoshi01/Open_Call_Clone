@@ -379,7 +379,7 @@
     bottom: 2px;
     content: "";
     left: 2px;
-    -webkit-mask: url();
+    -webkit-mask: url(../sec_1/images/r30-black.svg);
     mask: url(../sec_1/images/r30-black.svg);
     position: absolute;
     right: 2px;
