@@ -1,4 +1,26 @@
-.header{
+@keyframes wave {
+    0% {
+      transform: translateY(0px);
+    }
+    20% {
+      transform: translateY(-5px);
+    }
+    40% {
+      transform: translateY(5px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+    80% {
+      transform: translateY(5px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+
+  .header {
     background-color: var(--c-grey-light);
     left: 0;
     padding-top: 1rem;
@@ -6,7 +28,20 @@
     top: 0;
     width: 100%;
     z-index: 100;
+    transition: all 0.3s ease-in-out;
 }
+
+.scrolled {
+    background-color:transparent;
+}
+
+.hide {
+    visibility: hidden; /* Use visibility instead of display */
+    opacity: 0; /* Optional: smooth fade out */
+    transition: visibility 0.3s, opacity 0.3s; /* Ensure smooth transition */
+}
+
+
 
 .w {
     margin-left: 1rem;
@@ -20,14 +55,74 @@
     position: relative;
 }
 
-.l_tt{
+.header .w nav{
+    padding: .5rem 1.8rem;
+    border-radius: 10px;
+}
+
+.scrolled .l_symbol img {
+    transform: scale(1.5); /* Make the logo bigger */
+    
+  }
+
+  .scrolled .l_tt {
+    opacity: 0; /* Hide the title */
+  }
+  
+  .l_tt {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2px;
     margin: 0 2px;
     height: 48px;
+    opacity: 1; /* Start visible */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+
+.w nav {
+    transition: backdrop-filter 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+
+  .scrolled .nav {
+    backdrop-filter: blur(.25rem);
+    background-color: rgba(var(--c-grey-special-rgb), .8)
+  }
+  .l_symbol img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .l_tt {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .hideTitle {
+    opacity: 0; /* Hide title */
+    transition: opacity 0.3s ease-in-out; /* Add transition for smoothness */
 }
+
+  .scrolled .l_symbol img:hover {
+    transform: scale(1); /* Make the logo bigger */
+    }
+
+    .scrolled .l_symbol img:hover .scrolled .l_tt {
+        opacity: 1; /* Show the title when logo is hovered */
+    }
+  
+ .showTitle {
+    opacity: 1 !important; /* Show title */
+    transition: opacity 0.3s ease-in-out; /* Add transition for smoothness */
+}
+
+.originalSize {
+    transform: scale(1); /* Reset the logo size when hovered */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+  .base {
+    font-weight: 400;
+  }
 
 .h1{
     font-size: 1.5rem;
@@ -54,6 +149,7 @@
     justify-content: flex-start;
     position: relative;
 }
+
 
 @media (min-width: 1024px) {
     .header .w nav[data-v-568e58aa] {
@@ -99,11 +195,13 @@
         display: flex;
         justify-content: flex-start;
         position: relative;
+        cursor: pointer;
+        overflow: hidden;
     }
 }
 
 @media (min-width: 1024px) {
-    .header .-w nav a[data-v-568e58aa]:before {
+    .header .w nav a[data-v-568e58aa]:before {
         background-color: var(--c-white);
         border-radius: .45rem;
         content: "";
@@ -118,6 +216,26 @@
         transform: scale(.5);
         width: 100%;
     }
+}
+
+.header .w nav a[data-v-568e58aa]{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.header .w nav a span[data-v-568e58aa]{
+    display: inline-block;
+    position: relative;
+    transform-origin: 0% 50%;
+    transition: transform 0.3s;
+}
+
+.header .w nav a:hover span[data-v-568e58aa]{
+    animation: wave 0.8s ease-in-out;
+    animation-fill-mode: forwards;
 }
 
 .base{

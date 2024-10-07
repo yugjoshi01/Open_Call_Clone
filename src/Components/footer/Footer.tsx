@@ -4,7 +4,7 @@ import styleFooter from "./Footer.module.css";
 
 function Footer() {
   return (
-    <footer className={styleFooter.c_footer} data-v-30a60abe>
+    <footer className={styleFooter.c_footer} id="footer" data-v-30a60abe>
       <div className={styleFooter.w} data-v-30a60abe>
         <div className={styleFooter.bg} data-v-30a60abe>
           <span data-v-30a60abe></span>
